@@ -1,0 +1,47 @@
+body{
+  background: #333;
+  color: #fff;
+}
+
+.navbar{
+  border-bottom: rgba(60, 173, 226, 0.8) 3px solid;
+}
+
+#home-section{
+  background-image: url(/img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+
+  #home-section .dark-overlay{
+   background:rgba(0, 0, 0, 0.8)
+  }
+
+#home-section .home-inner{
+  padding-top: 140px;
+}
+
+#home-section .fas,
+#Explore-section .fas,
+#create-section .fas,
+#share-section .fas {
+  color: rgb(60, 173, 226);
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+#Explore-section .fas,
+#share-section .fas {
+  background: #333;
+}
+
+#create-section .fas{
+  background: #000;
+}
